@@ -1,0 +1,11 @@
+{
+  "name": "Partner Platform",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Partner Platform",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
